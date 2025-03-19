@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Lists,Images,Tables and Forms</title>
+    </head>
+    <head>
+        <h1>Ordered List</h1>
+        <ol type="i">
+            <li>Students</li>
+            <li>Infants</li>
+            <li>Parents</li>
+        </ol>
+        <h3>External Image</h3>
+        <img scr="https://images.pexels.com/photos/6925365/pexels-photo-6925365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        alt="Happy Community" width="500" height="300">
+        <h4>Table</h4>
+        <table border="1">
+            <thead>
+                <tr>
+                     <th>Full Name</th>
+                     <th>Address</th>
+                     <th>Mobile</th>
+                     <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jemima Mukami</td>
+                    <td>123 Main St</td>
+                    <td>123-456-7890</td>
+                    <td>@mmgmail.com</td>
+                </tr>
+                <tr>
+                    <td>John Were</td>
+                    <td>20259-avenue</td>
+                    <td>254 72975469</td>
+                    <td>@jwgmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>Moi Avenue 2334-23</td>
+                    <td>0713637828</td>
+                    <td>@jsgmail.com</td>
+                </tr>
+                <tr>
+                    <td>James Mwangi</td>
+                    <td>Thika Road 1234-23</td>
+                    <td>0712345678</td>
+                    <td>@jmgmail.com</td>
+                </tr>
+                <tr>
+                    <td>Juliet Wanjiru</td>
+                    <td>Ngong Road 1234-23</td>
+                    <td>0712345678</td>
+                    <td>@jwgmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Registration Form</h1>
+        <!-- start of form -->
+         <form action=""method=">
+            <label for="Full_name">Full Name:</label>
+            <input type="text" id="full_name" name="full_name" required placeholder>
+            <br><br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required placeholder>
+            <br><br>
+            <label for="mobile">Mobile:</label>
+            <input type="text" id="mobile" name="mobile" required placeholder>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder>
+            <br><br>
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required placeholder>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Male">Male
+            <br><br>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Rwanda">Rwanda</option>
+            </select>
+            <br><br>
+            <label for="interests">Interests:</label>
+            <input type="checkbox" name="interests" value="Reading">Reading
+            <input type="checkbox" name="interests" value="Swimming">Swimming
+            <input type="checkbox" name="interests" value="Travelling">Travelling
+            <input type="checkbox" name="interests" value="Cooking">Cooking 
+            <br><br>
+            <input type="submit" value="Register">
+        </form>
+        <!-- end of form -->
+    </head>
+</html>
